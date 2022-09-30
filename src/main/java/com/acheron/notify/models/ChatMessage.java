@@ -4,7 +4,6 @@ import lombok.*;
 
 /**
  * @author Dibya Prakash Ojha
- * @date : 10-Aug-22
  * @project : notify-app-spring
  */
 @NoArgsConstructor
