@@ -1,6 +1,11 @@
 server:
   port: 8080
 
+services:
+  service:
+    name: http://localhost:4200
+
+
 
 #data base specific properties
 spring:
@@ -10,5 +15,5 @@ spring:
     password: root
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5Dialect
