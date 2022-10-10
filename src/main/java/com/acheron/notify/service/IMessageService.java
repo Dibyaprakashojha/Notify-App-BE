@@ -8,5 +8,5 @@ import com.acheron.notify.models.Message;
  * @project : notify-app-spring
  */
 public interface IMessageService {
-     void addMessage(Message message);
+     Message addMessage(Message message);
 }

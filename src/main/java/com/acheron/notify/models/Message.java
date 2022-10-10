@@ -22,13 +22,13 @@ public class Message implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer messageId;
 
-    @OneToOne
-    @JoinColumn(name = "message_from")
-    private User messageFrom;
+//    @OneToOne
+//    @JoinColumn(name = "message_from")
+    private String messageFrom;
 
-    @OneToOne
-    @JoinColumn(name = "message_to")
-    private User messageTo;
+//    @OneToOne
+//    @JoinColumn(name = "message_to")
+    private String messageTo;
 
     private String messageText;
 
